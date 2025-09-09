@@ -1,4 +1,10 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, Git!" << std::endl;
+	string str = "Hello, Git!";
+    cout << str << std::endl;
+	return 0;
+}
